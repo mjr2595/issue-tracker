@@ -1,10 +1,9 @@
 "use client";
 
+import classnames from "classnames";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React from "react";
 import { PiBug } from "react-icons/pi";
-import classnames from "classnames";
 
 const NavBar = () => {
   const currentPath = usePathname();
